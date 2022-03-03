@@ -1,0 +1,7 @@
+[defaults]
+url = http://your.url
+org = yourorg
+project = yourproject
+
+[auth]
+token = yourtoken

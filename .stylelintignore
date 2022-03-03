@@ -1,0 +1,9 @@
+/node_modules
+/dist
+/src/assets
+
+*.min.css
+​*.js
+*.jpg
+*.woff
+

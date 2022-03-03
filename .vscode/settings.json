@@ -1,0 +1,23 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.stylelint": false // stylelint的自动修复不是很灵，建议手动修复
+  },
+  "stylelint.validate": [
+    "css",
+    "scss",
+    "vue"
+  ],
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "vetur.validation.style": false,
+  "vetur.format.defaultFormatter.scss": "none",
+  "vetur.format.defaultFormatter.css": "none",
+}
