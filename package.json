@@ -17,14 +17,14 @@
     }
   },
   "dependencies": {
+    "@sentry/tracing": "^6.19.1",
+    "@sentry/vue": "^6.19.1",
     "core-js": "^3.6.5",
     "element-ui": "^2.15.8",
     "husky": "^7.0.4",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
-    "vuex": "^3.4.0",
-    "@sentry/tracing": "^6.19.1",
-    "@sentry/vue": "^6.19.1"
+    "vuex": "^3.4.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.15",
@@ -41,15 +41,17 @@
     "eslint-plugin-vue": "^6.2.2",
     "less": "^3.0.4",
     "less-loader": "^5.0.0",
+    "postcss-html": "^1.4.1",
     "prettier": "^2.2.1",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
     "script-ext-html-webpack-plugin": "^2.1.5",
-    "stylelint": "^13.13.1",
+    "stylelint": "^14.7.1",
     "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-standard": "^22.0.0",
+    "stylelint-config-recommended-scss": "^6.0.0",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "stylelint-config-standard-vue": "^1.0.0",
     "stylelint-order": "^5.0.0",
-    "stylelint-scss": "^3.21.0",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
     "vue-cli-plugin-commitlint": "~1.0.12",

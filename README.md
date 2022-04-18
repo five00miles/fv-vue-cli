@@ -13,7 +13,6 @@ vue-cli自带的eslint+prettier 再加上我自己配的stylelint
 
 ## 版本注意事项
 个人node版本12.22.10 npm  6.14.16
-vscode的插件Stylelint只能使用0.87.6版本，否则无效
 
 ## vue-cli配置
 See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -1,12 +1,14 @@
 {
   "extends": [
-    "stylelint-config-standard",
+    "stylelint-config-standard-scss",
+    "stylelint-config-standard-vue/scss",
     "stylelint-config-prettier"
   ],
-  "plugins": ["stylelint-scss", "stylelint-order"],
+  "plugins": ["stylelint-order"],
   "rules": {
     "indentation": 2,
     "string-quotes": "single",
+    "scss/at-import-partial-extension": null,
     "order/order": ["custom-properties", "declarations"],
     "order/properties-order": [
       "position",
